@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Niramit:300,400');
+@font-face{
+    font-family: "gambino";
+    src: local('GuldScript.woff') format("woff"),
+         url("Font/GuldScript.woff") format("woff"),
+         local('GuldScript.woff2') format("woff2"),
+         url("font/GuldScript.woff2") format("woff2"),
+         local('font/GuldScript_PersonalUseOnly.ttf') format("tff"),
+         url("font/GuldScript_PersonalUseOnly.ttf") format("tff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    box-sizing: border-box; /*setear el limite de una box creada, no se va a  sumar todo por afuera*/
+    font-family: Raleway;
+    color: #777;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.nav ul{
+    margin:0;
+}
+.nav li {
+    display: inline; /* para que los acomode en linea */
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none; /* saca el subrayado */
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.main-nav li{
+    padding:0 5%;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.main-header{
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url('pic/headerBackground.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.childish{
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+    font-family: gambino;
+    font-weight: normal;
+    color:white;
+}
+.childish-large{
+    font-size: 8em;
+}
+.content-section {
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: Raleway;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-image{
+    float: left;
+    height: 210px;
+    width: 240px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgb(53, 100, 201);
+    color:white;
+    padding: .25em 0;
+}
+.main-fooder-container{
+    display: flex;
+    align-items: center;
+}
+.main-fooder-container ul{
+    flex-grow:1;
+    text-align: end;
+}
+.footer-nav li{
+  padding: 0 .7em;
+}
+.footer-nav img {
+    display: center;
+    width : 80px;
+    height: 80px;
+    
+    
+}
