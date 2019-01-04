@@ -4,82 +4,74 @@
 <head>
     <title>this is a test</title>
     <meta name="description" content="this is a description">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">THIS</a></li>
                 <li><a href="about.html">IS</a></li>
                 <li><a href="store.html">MURICA</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1> EL GENERICO</h1>
+        <h1 class="childish childish-large"> EL GENERICO</h1>
+        <div class="container">
+            <button class="btn btn-header" type="button"> get what you want</button>
+        </div>
+        <button class="btn btn-header btn-play" type="button">&#9658</button>
     </header>
-    <button type="button"> get what you want</button>
-    <br>
-    <br>
-    <!-- TODO : encontrar fondo-->
-    <button type="button">&#9658</button>
-    <section>
-        <h2> data</h2>
-        <div>
-            <div>
+    
+    
+    <section class="content-section container">
+        <h2 class="section-header"> data</h2>
+        <div >
+            <div class="tour-row">
                 <!-- si hace salto de linea-->
-                <strong>THIS IS IMPORTANT</strong>
-                &lt;&gt;
-                <span>this is a span element</span> <!-- span , no separa de linea-->
-                &lt;&gt;
-                <span>49 so is this</span>
-                &lt;&gt;
-                <button type="button"> LLEGA</button>
-                <hr>
+                <Span class="año-item año-date">Primer año</Span>
+                <span class="año-item año-primer">Buenos Aires,AR</span> <!-- span , no separa de linea-->
+                <span class="año-item año-segundo">Por aqui</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary"> Moar</button>
             </div>
-            <div>
+            <div class="tour-row">
                 <!-- si hace salto de linea-->
-                <strong>THIS IS IMPORTANT2</strong>
-                &lt;&gt;
-                <span> this is a span element2</span> <!-- span , no separa de linea-->
-                &lt;&gt;
-                <span>49 so is this2</span>
-                &lt;&gt;
-                <button type="button"> LLEGA2</button>
-                <hr>
+                <span class="año-item año-date">Segundo año</span>
+                <span class="año-item año-primer"> Moreno,AR</span> <!-- span , no separa de linea-->
+                <span class="año-item año-segundo">Por aqui</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary"> Moar</button>
             </div>
-            <div>
+            <div class="tour-row">
                 <!-- si hace salto de linea-->
-                <strong>THIS IS IMPORTANT3</strong>
-                &lt;&gt;
-                <span> this is a span element3</span> <!-- span , no separa de linea-->
-                &lt;&gt;
-                <span>49 so is this3</span>
-                &lt;&gt;
-                <button type="button"> LLEGA3</button>
+                <span class="año-item año-date">Tercer año</span>
+                <span class="año-item año-primer"> Polvorines,AR</span> <!-- span , no separa de linea-->
+                <span class="año-item año-segundo">Por aqui</span>
+                <button type="button" class="btn tour-item tour-btn btn-primary"> Moar</button>
             </div>
         </div>
     </section>
 
-    <footer>
-        <h4>Chau</h4>
-        <ul>
+    <footer class="main-footer">
+        <h4 class="childish childish-large">this is me</h4>
+        <div class="main-footer-container">
+        <ul class="nav footer-nav">
             <li>
-                <a href="https://duckduckgo.com" target="_blank">
-                    <img src="pic/image2.jpg" width="400" height="200">
+                <a href="https://open.spotify.com/user/1297218212?si=pJl6nPHSQf2JrX-zoflDfg" target="_blank">
+                    <img src="pic/Spotify Logo.png" >
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=Sv_NAxi_jNs&t=1208s" target="_blank">
+                    <img src="pic/YouTube Logo.png" >
                 </a>
             </li>
             <li>
                 <a href="https://duckduckgo.com" target="_blank">
-                    <img src="pic/image5.jpg" width="400" height="200">
-                </a>
-            </li>
-            <li>
-                <a href="https://duckduckgo.com" target="_blank">
-                    <img src="pic/image4.jpg" width="400" height="200">
+                    <img src="pic/icons8-duckduckgo-500.png" width="70" height="70">
                 </a>
             </li>
         </ul>
+    </div>
     </footer>
 
 </body>
